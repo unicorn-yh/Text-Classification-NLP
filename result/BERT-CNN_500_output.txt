@@ -1,0 +1,24 @@
+epoch: 0, train loss: 2.944, train accuracy: 7.4%, valid accuracy: 2.0%, time: 2022-11-21 22:16:37
+epoch: 1, train loss: 2.7529, train accuracy: 9.6%, valid accuracy: 8.0%, time: 2022-11-21 22:18:34
+epoch: 2, train loss: 2.7116, train accuracy: 10.2%, valid accuracy: 14.0%, time: 2022-11-21 22:20:29
+epoch: 3, train loss: 2.6821, train accuracy: 9.6%, valid accuracy: 9.0%, time: 2022-11-21 22:22:26
+epoch: 4, train loss: 2.6331, train accuracy: 13.2%, valid accuracy: 6.0%, time: 2022-11-21 22:24:22
+epoch: 5, train loss: 2.603, train accuracy: 16.2%, valid accuracy: 14.0%, time: 2022-11-21 22:26:23
+epoch: 6, train loss: 2.5506, train accuracy: 15.2%, valid accuracy: 11.0%, time: 2022-11-21 22:28:40
+epoch: 7, train loss: 2.4686, train accuracy: 21.4%, valid accuracy: 12.0%, time: 2022-11-21 22:30:34
+epoch: 8, train loss: 2.2702, train accuracy: 29.0%, valid accuracy: 10.0%, time: 2022-11-21 22:32:33
+epoch: 9, train loss: 2.0255, train accuracy: 33.8%, valid accuracy: 7.0%, time: 2022-11-21 22:34:32
+epoch: 10, train loss: 1.673, train accuracy: 45.8%, valid accuracy: 9.0%, time: 2022-11-21 22:36:31
+epoch: 11, train loss: 1.3709, train accuracy: 57.2%, valid accuracy: 6.0%, time: 2022-11-21 22:38:33
+epoch: 12, train loss: 1.1535, train accuracy: 66.2%, valid accuracy: 7.0%, time: 2022-11-21 22:40:28
+epoch: 13, train loss: 1.0026, train accuracy: 67.2%, valid accuracy: 10.0%, time: 2022-11-21 22:42:25
+epoch: 14, train loss: 0.8077, train accuracy: 75.2%, valid accuracy: 10.0%, time: 2022-11-21 22:44:23
+epoch: 15, train loss: 0.6367, train accuracy: 79.4%, valid accuracy: 5.0%, time: 2022-11-21 22:46:20
+epoch: 16, train loss: 0.5712, train accuracy: 83.2%, valid accuracy: 8.0%, time: 2022-11-21 22:48:19
+epoch: 17, train loss: 0.5036, train accuracy: 84.4%, valid accuracy: 11.0%, time: 2022-11-21 22:50:13
+epoch: 18, train loss: 0.4498, train accuracy: 85.2%, valid accuracy: 4.0%, time: 2022-11-21 22:52:05
+epoch: 19, train loss: 0.4155, train accuracy: 86.6%, valid accuracy: 12.0%, time: 2022-11-21 22:53:54
+epoch: 20, train loss: 0.3805, train accuracy: 88.2%, valid accuracy: 8.0%, time: 2022-11-21 22:55:47
+
+
+
