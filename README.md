@@ -1,5 +1,5 @@
 # Text-Classification-NLP
-  Classifying text using Bi-LSTM, Transformer, BERT-AT, BERT-BILSTM and BERT_CNN
+  Classifying text using Bi-LSTM, Transformer, BERT-ATT, BERT-BILSTM and BERT-CNN
 
 <br>
 
