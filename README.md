@@ -63,29 +63,19 @@ The model introduces NSP to predict whether the text at both ends of the input B
 
 <br>
 
-Model we used: ***BERT-ATT, BERT-BILSTM, BERT-CNN***
+## Model we used
 
 | **Model** | **Architecture**                                             |
 | :--------: | :------------------------------------------------------------: |
-| **BERT-ATT** | **<img src="README/image-20230402155519818.png" alt="image-20230402155519818" style="zoom:67%;" />** |
-| **BERT-BILSTM** | <img src="README/image-20230402155638478.png" alt="image-20230402155638478" style="zoom:67%;" /> |
-| **BERT-CNN** | <img src="README/image-20230402155711833.png" alt="image-20230402155711833" style="zoom:67%;" /> |
+| **BERT-ATT** | **<img src="README/image-20230402155519818.png" alt="image-20230402155519818"/>** |
+| **BERT-BILSTM** | <img src="README/image-20230402155638478.png" alt="image-20230402155638478"/> |
+| **BERT-CNN** | <img src="README/image-20230402155711833.png" alt="image-20230402155711833"/> |
 
-**BERT-ATT**
+**BERT-ATT**: BERT-ATT is a BERT model based on a small self-attention mechanism. After the first layer of BERT, the algorithm shown in Table 1 is implemented, and a fully connected layer is implemented before the output.
 
-BERT-ATT is a BERT model based on a small self-attention mechanism. After the first layer of BERT, the algorithm shown in Table 1 is implemented, and a fully connected layer is implemented before the output.
+**BERT-BILSTM**: BERT-BILSTM is a combined model of BERT and Bi-LSTM. BERT-BiLSTM is not a simple weight combination model between BERT and Bi-LSTM, but uses BERT as its upstream part and Bi-LSTM as its downstream part. According to the introduction in the previous section, BERT has the ability to learn the statistical characteristics of adjacent words, while Bi-LSTM has the ability to learn contextual information. This is in line with the logic of the human language system, that is, basic grammar depends on statistical features, and specific meaning depends on context, so BERT-BiLSTM has great potential in classifying text labels.
 
-<br>
-
-**BERT-BILSTM**
-
-BERT-BILSTM is a combined model of BERT and Bi-LSTM. BERT-BiLSTM is not a simple weight combination model between BERT and Bi-LSTM, but uses BERT as its upstream part and Bi-LSTM as its downstream part. According to the introduction in the previous section, BERT has the ability to learn the statistical characteristics of adjacent words, while Bi-LSTM has the ability to learn contextual information. This is in line with the logic of the human language system, that is, basic grammar depends on statistical features, and specific meaning depends on context, so BERT-BiLSTM has great potential in classifying text labels.
-
-<br>
-
-**BERT-CNN**
-
-The BERT-CNN model is formed from the combination of a bidirectional encoder representation from Transformer (BERT) and a convolutional neural network (CNN) for text classification. The model uses BERT to train the word semantic representation language model, and then dynamically generates semantic vectors according to the word context, and inputs them into CNN to predict the output.
+**BERT-CNN**: The BERT-CNN model is formed from the combination of a bidirectional encoder representation from Transformer (BERT) and a convolutional neural network (CNN) for text classification. The model uses BERT to train the word semantic representation language model, and then dynamically generates semantic vectors according to the word context, and inputs them into CNN to predict the output.
 
 <br>
 
