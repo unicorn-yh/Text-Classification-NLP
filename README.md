@@ -65,7 +65,7 @@ The model introduces NSP to predict whether the text at both ends of the input B
 
 ## Model we used
 
-| **Model** | **Architecture**                                             |
+| **BERT-based Model** | **Architecture**                                             |
 | :--------: | :------------------------------------------------------------: |
 | **BERT-ATT** | **<img src="README/image-20230402155519818.png" alt="image-20230402155519818"/>** |
 | **BERT-BILSTM** | <img src="README/image-20230402155638478.png" alt="image-20230402155638478"/> |
@@ -106,7 +106,7 @@ From the training results of the Bi-LSTM model in table above, the Bi-LSTM is st
 
 <br>
 
-| BERT based Model |                            Result                            |
+| BERT-based Model |                            Result                            |
 | :--------------: | :----------------------------------------------------------: |
 |     BERT-ATT     | ![image-20230402160445157](README/image-20230402160445157.png) |
 |    BERT-LSTM     | ![image-20230402160502989](README/image-20230402160502989.png) |
